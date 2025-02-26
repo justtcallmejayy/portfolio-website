@@ -96,6 +96,24 @@ h2 {
   margin-bottom: 5px;
 }
 
+/* Projects */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+.project {
+  background: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+.project img {
+  max-width: 100%;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
 /* Resume */
 #resume a {
   background: #588157;
