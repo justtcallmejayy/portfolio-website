@@ -1,0 +1,107 @@
+/* Base Reset and Typography */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #dad7cd;
+  color: #344e41;
+  line-height: 1.6;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+/* Header */
+header {
+  background-color: #3a5a40;
+  color: #dad7cd;
+  padding: 20px;
+  text-align: center;
+}
+header h1 {
+  margin-bottom: 5px;
+}
+header p {
+  font-size: 0.9em;
+}
+/* Navigation */
+nav {
+  background: #344e41;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+nav a {
+  padding: 14px 20px;
+  color: #dad7cd;
+  transition: background 0.3s;
+}
+nav a:hover {
+  background: #588157;
+}
+/* Container */
+.container {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 0 20px;
+  background: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+section {
+  padding: 20px;
+  border-bottom: 1px solid #a3b18a;
+}
+section:last-of-type {
+  border-bottom: none;
+}
+h2 {
+  color: #3a5a40;
+  margin-bottom: 10px;
+}
+/* About / Summarizing Statement */
+#summary p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
+/* Education */
+.timeline {
+  list-style: none;
+  padding-left: 20px;
+  border-left: 3px solid #588157;
+  margin-bottom: 20px;
+}
+.timeline li {
+  margin: 10px 0;
+  padding-left: 10px;
+}
+
+/* Resume */
+#resume a {
+  background: #588157;
+  color: #dad7cd;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+#resume iframe {
+  border: 1px solid #a3b18a;
+}
+/* Contact */
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.contact-info a {
+  color: #588157;
+  font-weight: bold;
+}
+/* Footer */
+footer {
+  background: #344e41;
+  color: #dad7cd;
+  text-align: center;
+  padding: 10px;
+}
