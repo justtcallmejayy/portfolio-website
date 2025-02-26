@@ -77,6 +77,24 @@ h2 {
   margin: 10px 0;
   padding-left: 10px;
 }
+/* Skills */
+.skills-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.skill {
+  flex: 1 1 200px;
+  background: #a3b18a;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  color: #3a5a40;
+}
+.skill h4 {
+  margin-bottom: 5px;
+}
 
 /* Resume */
 #resume a {
